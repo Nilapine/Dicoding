@@ -22,6 +22,8 @@ nav a {
     font-size: 18px;
     font-weight: 400px;
     text-decoration: none;
+
+    color: white;
 }
 
 nav a:hover{
@@ -57,4 +59,15 @@ nav a:hover{
     background-color: #00a2c6;
     text-align: center;
     color: white;
+}
+
+nav li{
+    display: inline; 
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #0084a2;
+    padding: 5px;
 }
