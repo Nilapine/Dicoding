@@ -93,24 +93,19 @@ h2{
     font-size: 40px;
     color: rgb(70, 185, 231);
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h3{
-    color: #00a2c6;
+    color: rgb(70, 185, 231);
     text-align: center;
     
 }
 
-
-/* p::first-letter{
-    font-size: 32px;
-    color: #00a2c6;
-} */
-
 footer{
     padding: 20px;
     color: white;
-    background-color: #00a2c6;
+    background-color: rgb(70, 185, 231);
     text-align: center;
     font-weight: bold;
 }
@@ -209,7 +204,7 @@ main{
 
 main .content .content-description {
   flex: 1 1;
-  padding: 120px 60px;
+  padding: 90px 60px;
   font-size: large;
 }
 
@@ -251,8 +246,8 @@ aside img{
 }
 
 details{
-    background-color: #dce6ef;
-    margin-bottom: 12px;
+    background-color: rgb(70, 185, 231);
+    margin-bottom: 6px;
     border-radius: 6px;
     overflow: hidden;
     transition: all 0.3s ease;
@@ -274,23 +269,24 @@ summary::after {
     content: '▼';
     font-size: 0.75rem;
     transition: transform 0.2s ease;
-    color: #bdc3c7;
+    color: #ffffff;
 }
 
 /* Efek saat menu diklik/terbuka */
 details[open] {
-    background-color: #00a2c6;
+    background-color: rgb(70, 185, 231);
+    
 }
 
 details[open] summary::after {
     transform: rotate(180deg); /* Memutar panah ke atas */
-    color: #00a2c6;
+    color: #ffffff;
 }
 
 .menu-content {
     padding: 15px;
-    background-color: #d1f1f8;
-    border-top: 1px solid #8cd2e1;
+    background-color: #eef3f5;
+    border: 1px outset rgb(70, 185, 231);
 }
 
     .menu-content p {
@@ -303,6 +299,18 @@ details[open] summary::after {
 header{
     display: inline;
 }
+
+.map-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 450px;
+            border: 0; 
+        }
 
 /* Perangkat dengan lebar layar 1200px dan di bawahnya */
 
